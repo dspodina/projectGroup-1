@@ -1,24 +1,55 @@
-
-*, html, body {
-    font-size: 18px; 
-    width: 100%;
+body {
+  font-size: 18px;
+  background-color: #ccd3ca;
 }
 
+/* #resultImage {
+  display: none;
+  /* width: 400px; */
+} */
+
 h1 {
-    font-size: 2em;
-    font-weight: bold;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 section {
-    width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
-
+/* 
 input {
-    display: flex;
+  display: flex;
 }
-
 
 .mood {
-    text-align: left;
-    justify-content: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.radio-style input[type="radio"] {
+  display: inline-block;
+} */
+
+button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 8px 30px;
+  border-radius: 5px;
+}
+
+.radio-style {
+  line-height: 2em;
+}
+
+img {
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
