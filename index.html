@@ -8,19 +8,42 @@
   </head>
   <body>
     <section>
-      <h1>What is your mood today?</h1>
-          <div class="mood">
-            <div>
-              <input class="happy" type="radio" id="happy" name="mood" />
-              <label for="happy">Happy</label>
-            </div>
-            <input class="confused" type="radio" id="confused" name="mood" />
-            <label for="confused">Confused</label>
+      <div class="mood">
+        <h1>What is your mood today?</h1>
 
-            <input class="sad" type="radio" id="sad" name="mood" />
-            <label for="sad">Sad</label>
+        <div class="radio-style">
+          <input class="happy" type="radio" id="happy" name="mood" />
+          <label for="happy">Happy</label>
+          <br />
 
-            <input class="bored" type="radio" id="bored" name="mood"/>
-            <label for="bored">Bored</label>
+          <input class="confused" type="radio" id="confused" name="mood" />
+          <label for="confused">Confused</label>
+          <br />
+
+          <input class="sad" type="radio" id="sad" name="mood" />
+          <label for="sad">Sad</label>
+          <br />
+
+          <input class="angry" type="radio" id="angry" name="mood" />
+          <label for="bored">Angry</label>
+          <br />
+
+          <input class="hungry" type="radio" id="hungry" name="mood" />
+          <label for="hungry">Hungry</label>
+          <br />
+        </div>
+        <br />
+
+        <button id="checkTheResult">Click</button>
+      </div>
+      <div class="img-style">
+        <img
+          id="resultImage"
+          src="./src/question-marks.jpeg"
+          alt="Result image"
+        />
+      </div>
+    </section>
+    <script src="./main.js"></script>
   </body>
 </html>
