@@ -7,24 +7,26 @@
     <title>Mood of the day</title>
   </head>
   <body>
-    <div>
+    <section>
       <h1>What is your mood today?</h1>
+          <div class="mood">
+            <div>
+              <input class="happy" type="radio" id="happy" name="mood" />
+              <label for="happy">Happy</label>
+            </div>
+            <input class="confused" type="radio" id="confused" name="mood" />
+            <label for="confused">Confused</label>
 
-      <input type="radio" id="happy" />
-      <label for="happy">Happy</label>
+            <input class="sad" type="radio" id="sad" name="mood" />
+            <label for="sad">Sad</label>
 
-      <input type="radio" id="confused" />
-      <label for="confused">Confused</label>
+            <input class="bored" type="radio" id="bored" name="mood"/>
+            <label for="bored">Bored</label>
 
-      <input type="radio" id="sad" />
-      <label for="sad">Sad</label>
-
-      <input type="radio" id="bored" />
-      <label for="bored">Bored</label>
-
-      <input type="radio" id="hungry" />
-      <label for="hungry">Hungry/Angry</label>
-    </div>
-    <script src="./main.js"></script>
+            <input class="hungry" type="radio" id="hungry" name="mood" />
+            <label for="hungry">Hungry/Angry</label>
+          </div>
+    </section>
+  <script src="./main.js"></script>
   </body>
 </html>
